@@ -18,8 +18,10 @@ function rollDice() {
   // Update the header text based on the dice roll
   if (randomNumber1 > randomNumber2) {
     header.textContent = "🚩 Player 1 Wins!";
+    header.style.fontSize = "4rem";
   } else if (randomNumber1 < randomNumber2) {
     header.textContent = "Player 2 Wins! 🚩";
+    header.style.fontSize = "4rem";
   } else {
     header.textContent = "🏁 Draw!";
   }
