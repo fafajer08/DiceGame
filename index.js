@@ -3,10 +3,12 @@ function rollDice() {
   // Generate random numbers for both dice
   let randomNumber1 = Math.floor(Math.random() * 6) + 1;
   let randomNumber2 = Math.floor(Math.random() * 6) + 1;
+  console.log(randomNumber1, randomNumber2);
 
   // Select the dice image elements
   let dice1 = document.querySelector(".img1");
   let dice2 = document.querySelector(".img2");
+  console.log(dice1, dice2);
 
   // Select the <h1> header element
   let header = document.querySelector("h1");
